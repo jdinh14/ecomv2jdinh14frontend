@@ -1,6 +1,7 @@
 
 
-Reagents
+
+
 Reagents is a modern e-commerce platform built with React, designed for providing a seamless shopping experience. Our platform features a wide range of products with intuitive navigation and filtering options.
 
 Features
