@@ -7,7 +7,7 @@ export default function UnsubForm() {
         event.preventDefault();
         // Code to send email to the backend
         try {
-            const response = await fetch('http://localhost:4000/unsubscribe', {
+            const response = await fetch('https://reagents.onrender.com/unsubscribe', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

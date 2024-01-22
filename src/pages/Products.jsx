@@ -9,7 +9,7 @@ export default function Products() {
     const [filterCategory, setFilterCategory] = useState('');
 
     useEffect(() => {
-        fetch('http://localhost:4000/products') 
+        fetch('https://reagents.onrender.com/products') 
             .then(response => response.json())
             .then(data => setProducts(data))
             .catch(error => console.error('Error fetching data: ', error));

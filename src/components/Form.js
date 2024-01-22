@@ -7,7 +7,7 @@ export default function EmailForm() {
         event.preventDefault();
         // Code to send email to the backend
         try {
-            const response = await fetch('http://localhost:4000/subscriptions', {
+            const response = await fetch('https://reagents.onrender.com/subscriptions', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
